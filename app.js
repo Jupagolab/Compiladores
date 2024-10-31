@@ -1,5 +1,6 @@
 // Importa el compilador de operaciones
-import Interpreter from './Interprete.js';
+import Interpreter from './Interpreter.js';
+
 const formulario = document.getElementById('compiler-form');
 
 // Escucha el eo de envío del formulario

@@ -1,6 +1,6 @@
-const Lexer = require('./Lexer');
-const Parser = require('./Parser');
-const SemanticAnalyzer = require('./SemanticAnalyzer');
+import Lexer from './Lexer.js';
+import Parser from './Parser.js';
+import SemanticAnalyzer from './SemanticAnalyzer.js';
 
 // Clase principal que orquesta todo el proceso
 class Interpreter {
@@ -17,4 +17,4 @@ class Interpreter {
     }
 }
 
-module.exports = Interpreter;
+export default Interpreter;

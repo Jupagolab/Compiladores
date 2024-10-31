@@ -97,4 +97,4 @@ class Lexer {
     }
 }
 
-module.exports = Lexer;
+export default Lexer;
